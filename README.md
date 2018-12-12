@@ -4,13 +4,18 @@
 ### About the Project
     1. This tool was prepared as Engineering minor project.
     
-    2. This project may be classified as a Desktop Application and it serves the purpose of downloading files from the Internet using HTTP or HTTPS protocols and managing them.
+    2. This project may be classified as a Desktop Application and it serves the purpose of downloading
+    files from the Internet using HTTP or HTTPS protocols and managing them.
 
-    3. The project uses multithreading to download files in segments using multiple simultaneous connections, thus using the internet connection to its full potential, and then combining the segments to produce the original file.
+    3. The project uses multithreading to download files in segments using multiple simultaneous connections,
+    thus using the internet connection to its full potential, and then combining the segments to produce the
+    original file.
     
-    4. A special care about what Python version is used should be kept in mind since the application in written in Python 3.4 using PyQt4 GUI implementation, it will not run on any other combination of Python and PyQt.
+    4. A special care about what Python version is used should be kept in mind since the application in written
+    in Python 3.4 using PyQt4 GUI implementation, it will not run on any other combination of Python and PyQt.
     
-    5. This application will only download files from the HTTP and HTTPS protocols.Hopefully, further attempt will be made to add support for file download through FTP and Torrent Downloads
+    5. This application will only download files from the HTTP and HTTPS protocols.Hopefully, further attempts 
+    will be made to add support for file download through FTP and Torrent Downloads
 ### Requirements
     1. Python 3.4
     2. PyQT4 - pip install pyqt4
